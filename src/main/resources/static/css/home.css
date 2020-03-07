@@ -1,0 +1,52 @@
+@charset "UTF-8";
+/*home section*/
+#home_area{
+	min-width: 1080px;
+	margin: 0 calc((100% - 1080px) / 2);
+}
+/*logo area*/
+#logo_img{
+	width: 100%;
+}
+
+/*search area*/
+#search_area{
+	position: relative;
+	width: 600px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+/* 	padding-top: 500px; */
+}
+#search_bar{
+	position: relative;
+}
+#summonerName{
+	border: none;
+	border-radius: 3px;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 15px 150px 15px 15px;
+}
+#summonerNameBtn{
+	background-color: #ff2f63;
+	position: absolute;
+	top:0;
+	right:0;
+	content: " ";
+	border: none;
+	border-radius: 3px;
+	padding: 10px;
+	cursor: pointer;
+	height: 100%;
+	color: white;
+}
+/*youtube area*/
+#lol_youtube_area{
+	text-align: center;
+}
+.lol_youtube{
+	width: 800px;
+	height: 450px;
+	border:none;
+	border-radius: 3px;
+}

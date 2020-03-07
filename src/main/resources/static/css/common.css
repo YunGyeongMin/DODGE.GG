@@ -1,0 +1,63 @@
+@charset "UTF-8";
+html{
+	font-size: 16px;
+	 height: 100%
+}
+body,h1,h2,h3,h4,h5,ul{
+	margin: 0; padding: 0; height: 100%;
+}
+ol, ul {
+	list-style: none;
+}
+/*header*/
+header{
+	min-height: 80px;
+	background-color: #242b31;
+	color: white;
+	width: 100%;
+}
+.logo{
+	padding-top: 20px;
+}
+.logo span{
+	margin-left: 30px;
+	font-size: 25px;
+	cursor: pointer;
+}
+section{
+	width:100%;
+	min-height: calc(100% - 110px);
+	background-image: url(/resources/img/background/pantheon.jpg);
+	background-size: cover;
+/* 	background-color: #ebebeb; */
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	
+}
+/*footer*/
+footer{
+	min-height: 110px;
+	background-color: #242b31;
+	color: white;
+	position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0 auto;
+    width: 100%;
+}
+#footer_area{
+	margin: 0 calc((100% - 1080px) / 2);
+}
+.footer_itemlist{
+	margin-top: 10px;
+}
+.about{
+	cursor: pointer;
+}
+.footer_copyright{
+	margin-top: 10px;
+	width: 1080px;
+	font-size: 11px;
+	line-height: 1.5;
+}

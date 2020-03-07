@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>롤 전적 검색 해보자! DODGE.GG</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script type="text/javascript" src="/resources/js/home.js"></script>
+	<link rel="stylesheet" href="/resources/css/common.css">
+	<link rel="stylesheet" href="/resources/css/home.css">
+	<link rel="shortcut icon" type="image/x-icon" href="/resources/img/logo/favicon.png">
+</head>
+<body>
+	<header>
+		<nav>
+			<div class="logo">
+				<span>DODGE.GG</span>
+			</div>
+		</nav>
+	</header>
+	<section>
+		<div id="home_area">
+			<div id="logo"> 
+			<img id="logo_img" src="/resources/img/logo/twitter_header_photo_white.png">
+<!-- 			<img id="logo_img" src="/resources/img/logo/logo2/twitter_header_photo_2.png">  -->
+			</div>
+			<div id="search_area">
+				<form action="/search" method="post" id="search_bar"> 
+					<input type="text" id = "summonerName" name = "summonerName" placeholder="소환사명을 입력하세요!" autocomplete="off"/> 
+					<input type="submit" id = "summonerNameBtn" name="summonerNameBtn" value = "검색">
+				</form>
+			</div>
+			<div id="lol_youtube_area">
+				<iframe class="lol_youtube" src="https://www.youtube.com/embed/aR-KAldshAE?autoplay=1&mute=1&amp;loop=1;playlist=aR-KAldshAE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" framespacing=0 marginheight=0 marginwidth=0 scrolling=no vspace=0 allowfullscreen></iframe>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div id= "footer_area">
+			<ul class="footer_itemlist">
+				<li>
+					<a class="about">DODGE.GG</a>
+				</li>
+			</ul>
+			<div class="footer_copyright">
+				<h5>© DODGE.GG. All Rights Reserved.</h5>
+			</div>
+			<div class="footer_copyright">
+			2020 DODGE.GG. DODGE.GG isn’t endorsed by Riot Games and doesn’t reflect the views or opinions of Riot Games or anyone officially involved in producing or managing League of Legends. 
+			League of Legends and Riot Games are trademarks or registered trademarks of Riot Games, Inc. League of Legends © Riot Games, Inc.
+			</div>
+		</div>	
+	</footer>
+</body>
+</html>
