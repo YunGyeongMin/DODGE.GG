@@ -22,7 +22,7 @@ import net.sf.json.JSONObject;
 @Controller
 public class DataController {
 	
-	final static String API_KEY = "RGAPI-0dbb0062-5e19-486f-a270-ce25a05c4b9e";
+	final static String API_KEY = "RGAPI-0b0afea8-aad1-4c4e-8bef-93a698841269";
 
 	@RequestMapping(value="/search", method=RequestMethod.POST) 
 	public String searchSummoner(Model model,HttpServletRequest req) throws Exception{
